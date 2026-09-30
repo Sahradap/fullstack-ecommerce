@@ -1,0 +1,19 @@
+# Private settings
+server/.env
+client/.env
+client/.env.*
+
+# Installed packages and generated files
+server/env/
+server/venv/
+server/.venv/
+**/__pycache__/
+*.py[cod]
+client/node_modules/
+client/dist/
+
+# Local database and uploaded files
+server/db.sqlite3
+# Ignore other uploaded files, but include sample product images
+server/media/*
+!server/media/product_images/

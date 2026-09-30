@@ -1,0 +1,198 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Watch Series 11 GPS 42mm",
+    "description": "Water resistant 50m, Swim, snorkel, Depth gauge to 6m, Water temperature sensor. GPS, Cellular options, 5G capable, Fast-charge capable (0–80% in about 30 minutes; 15 minutes for up to 8 hours)",
+    "price": "999.00",
+    "image_url": "product_images/watch.jpg",
+    "category": "watch",
+    "quantity": 7,
+    "created_at": "2026-06-09T13:55:19.152Z",
+    "brand": "Apple"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Skechers TRACK mens SPORTS",
+    "description": "Walk and Run with this multipurpose shoe",
+    "price": "124.00",
+    "image_url": "product_images/sketchers.jpg",
+    "category": "Shoes",
+    "quantity": 4,
+    "created_at": "2026-06-09T13:56:39.723Z",
+    "brand": "Skechers"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Calvin Klein Women's Millie Triple Compartment Camera Bag Crossbody",
+    "description": "Top Quality Monogram PVC",
+    "price": "220.00",
+    "image_url": "product_images/ck.jpg",
+    "category": "bag",
+    "quantity": 5,
+    "created_at": "2026-06-18T14:22:08.053Z",
+    "brand": "Calvin Klein"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "GUESS Womens Noelle Top Zip Shoulder Bag Handbag",
+    "description": "Adjustable and removable handle.Faux leather exterior",
+    "price": "500.00",
+    "image_url": "product_images/guess.jpg",
+    "category": "bag",
+    "quantity": 3,
+    "created_at": "2026-06-18T14:30:56.554Z",
+    "brand": "GUESS"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Fossil Men's Grant Automatic Stainless Steel Mechanical Watch",
+    "description": "45mm case, 22mm band width, mineral crystal, Automatic movement with automatic analog display, imported.",
+    "price": "737.00",
+    "image_url": "product_images/fossil.jpg",
+    "category": "watch",
+    "quantity": 9,
+    "created_at": "2026-06-18T14:32:38.427Z",
+    "brand": "Fossil"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "CAT Tokyo Watches",
+    "description": "Black/Yellow dial in Stainless Steel case and Stainless Steel strap",
+    "price": "325.00",
+    "image_url": "product_images/ct.jpg",
+    "category": "watch",
+    "quantity": 7,
+    "created_at": "2026-06-18T14:33:48.939Z",
+    "brand": "CAT"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "Michael Kors Watch for Women Lennox Three-Hand, Stainless Steel Watch",
+    "description": "37mm case, 20mm band width, mineral crystal, Quartz movement with 3-hand analog display, imported.",
+    "price": "629.98",
+    "image_url": "product_images/mk.jpg",
+    "category": "watch",
+    "quantity": 5,
+    "created_at": "2026-06-18T14:35:09.160Z",
+    "brand": "Michael Kors"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "Titan Women's Quartz Analog Watch",
+    "description": "Luxurious Swarovski accents: Features a sophisticated brown dial elegantly studded with genuine Swarovski crystals. This radiant design adds a touch of glamour to your ensemble, making it perfect for both upscale casual events and professional settings.",
+    "price": "129.00",
+    "image_url": "product_images/titan.jpg",
+    "category": "watch",
+    "quantity": 4,
+    "created_at": "2026-06-18T14:36:29.280Z",
+    "brand": "Titan"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "GUCCI Bamboo Eau De Parfum For Women, 50 ml",
+    "description": "Gucci launches its new perfume&Gucci Bamboo&in spring 2015, named after the already existing collection of accessories.",
+    "price": "125.00",
+    "image_url": "product_images/gucc.jpg",
+    "category": "perfume",
+    "quantity": 5,
+    "created_at": "2026-06-18T14:38:28.815Z",
+    "brand": "Gucci"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Gucci Guilty Pour Homme - perfume for men - Eau de Toilette, 90 ml",
+    "description": "Base notes : French labdanum, musk, tonka bean, amber, oakmoss, vanilla and leather",
+    "price": "175.00",
+    "image_url": "product_images/guuc.jpg",
+    "category": "perfume",
+    "quantity": 6,
+    "created_at": "2026-06-18T14:39:31.553Z",
+    "brand": "Gucci"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "GIORDANO Men's 3D Lion Polo: Slim Fit, Bold Embroidery, Premium Pique",
+    "description": "Bold 3D Lion Embroidery: The eye-catching 3D embroidered lion design adds a unique and modern touch, elevating the classic polo style.",
+    "price": "90.00",
+    "image_url": "product_images/gio.jpg",
+    "category": "Shirt",
+    "quantity": 4,
+    "created_at": "2026-06-18T14:40:45.432Z",
+    "brand": "GIORDANO"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "GIORDANO Women’s Embroidered Cotton Liquid Touch Polo",
+    "description": "Premium 100% Cotton Interlock Fabric for superior softness and durability.",
+    "price": "83.85",
+    "image_url": "product_images/giow.jpg",
+    "category": "Shirt",
+    "quantity": 5,
+    "created_at": "2026-06-18T14:41:42.221Z",
+    "brand": "GIORDANO"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Toy phone",
+    "description": "easy to play",
+    "price": "30.00",
+    "image_url": "product_images/toyy.webp",
+    "category": "Toys",
+    "quantity": 8,
+    "created_at": "2026-09-28T07:53:15.387Z",
+    "brand": ""
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Fossil Women's Carlie Mini Three Hand",
+    "description": "Case Thickness: 7mm; Case Size: 28mm",
+    "price": "300.00",
+    "image_url": "product_images/foos.jpg",
+    "category": "watch",
+    "quantity": 5,
+    "created_at": "2026-09-30T07:34:50.502Z",
+    "brand": "fossil"
+  }
+}
+]
