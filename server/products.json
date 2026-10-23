@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "name": "Watch Series 11 GPS 42mm",
-    "description": "Water resistant 50m, Swim, snorkel, Depth gauge to 6m, Water temperature sensor. GPS, Cellular options, 5G capable, Fast-charge capable (0–80% in about 30 minutes; 15 minutes for up to 8 hours)",
+    "description": "Water resistant 50m, Swim, snorkel, Depth gauge to 6m, Water temperature sensor. GPS, Cellular options, 5G capable, Fast-charge capable (0â€“80% in about 30 minutes; 15 minutes for up to 8 hours)",
     "price": "999.00",
     "image_url": "product_images/watch.jpg",
     "category": "watch",
@@ -157,7 +157,7 @@
   "model": "products.product",
   "pk": 12,
   "fields": {
-    "name": "GIORDANO Women’s Embroidered Cotton Liquid Touch Polo",
+    "name": "GIORDANO Womenâ€™s Embroidered Cotton Liquid Touch Polo",
     "description": "Premium 100% Cotton Interlock Fabric for superior softness and durability.",
     "price": "83.85",
     "image_url": "product_images/giow.jpg",
