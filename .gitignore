@@ -17,3 +17,6 @@ server/db.sqlite3
 # Ignore other uploaded files, but include sample product images
 server/media/*
 !server/media/product_images/
+
+.venv/
+server/staticfiles/
