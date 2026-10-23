@@ -8,14 +8,22 @@ export default function ProductCard({ product, quantityInCart = 0 }) {
       return "https://placehold.co/400x300?text=No+Image";
     }
 
-    if (imageUrl.startsWith("http")) {
-      return imageUrl;
-    }
-
     const backendUrl =
       import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
-    return `${backendUrl}${imageUrl}`;
+    const url = new URL(imageUrl, `${backendUrl}/`);
+
+    // Serve the bundled sample images from the frontend.
+    if (url.pathname.startsWith("/media/product_images/")) {
+      return url.pathname;
+    }
+
+    // Handle a stored path without the /media/ prefix.
+    if (url.pathname.startsWith("/product_images/")) {
+      return `/media${url.pathname}`;
+    }
+
+    return url.href;
   }
   const availableQuantity = product.quantity - quantityInCart;
   return (
