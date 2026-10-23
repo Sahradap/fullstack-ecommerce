@@ -12,7 +12,10 @@ export default function ProductCard({ product, quantityInCart = 0 }) {
       return imageUrl;
     }
 
-    return `http://127.0.0.1:8000${imageUrl}`;
+    const backendUrl =
+      import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+
+    return `${backendUrl}${imageUrl}`;
   }
   const availableQuantity = product.quantity - quantityInCart;
   return (
